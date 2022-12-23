@@ -1,0 +1,6 @@
+name: Build
+on: [push]
+
+jobs:
+  build:
+    uses: thomasm-ttd/SharedWorkflows/.github/workflows/sharedbuild.yaml@main
